@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: white;
+}
+
+.cabecalho{
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.titulo-cabecalho{
+    font-size: 4em;
+    font-family: var(--fonte2);
+    color: white;
+}
+
+.subtitulo-cabecalho{
+    font-family: var(--fonte1);
+    color: white;
+}
+
+.conteudo-principal{
+ font-family: var(--fonte3);
+}
+
+article{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    
+}
+
+#normal{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.373);
+}
+.verso-com-imagem{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+.verso-com-imagem p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.529);
+    display: inline-block;
+    padding: 5px;
+}
+
+.verso-com-imagem{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.verso-com-imagem p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.529);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
